@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/fondodegradado2"
+    tools:context=".ui.servicios.ServiciosFragment">
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+              <TextView
+                  android:id="@+id/textdomicilios"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:ems="10"
+                  android:fontFamily="@font/fruzzybubbles"
+                  android:inputType="textPersonName"
+                  android:text="Domicilios"
+                  android:textColor="@color/black"
+                  android:textSize="34sp"
+                  android:textStyle="bold" />
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="139dp">
+
+                  <ImageView
+                      android:id="@+id/imageservicio1"
+                      android:layout_width="113dp"
+                      android:layout_height="115dp"
+                      android:backgroundTint="@color/white"
+                      android:backgroundTintMode="screen"
+                      android:foregroundTint="@color/white"
+                      android:padding="5dp"
+                      android:src="@drawable/domicilio11" />
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical">
+
+                      <TextView
+                          android:id="@+id/textdom"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_margin="5dp"
+                          android:fontFamily="@font/fruzzybubbles"
+                          android:padding="5dp"
+                          android:text="Entrega puerta a puerta en el menor de los tiempos" />
+
+                      <Button
+                          android:id="@+id/btn1"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="center"
+                          android:fontFamily="@font/fruzzybubbles"
+                          android:foregroundGravity="center"
+                          android:text="Pedir"
+                          android:textStyle="bold"
+                          app:cornerRadius="20dp" />/>
+                  </LinearLayout>
+
+              </LinearLayout>
+
+
+              <TextView
+                  android:id="@+id/textfies"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:ems="10"
+                  android:fontFamily="@font/fruzzybubbles"
+                  android:inputType="textPersonName"
+                  android:text="OrganiFiestas"
+                  android:textColor="@color/black"
+                  android:textSize="34sp"
+                  android:textStyle="bold" />
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+
+                  <ImageView
+                      android:id="@+id/imagefiesta"
+                      android:layout_width="113dp"
+                      android:layout_height="115dp"
+                      android:backgroundTint="@color/white"
+                      android:backgroundTintMode="screen"
+                      android:foregroundTint="@color/white"
+                      android:padding="5dp"
+                      android:src="@drawable/ic_fiesta" />
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical">
+
+                      <TextView
+                          android:id="@+id/textfiesta"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_margin="5dp"
+                          android:fontFamily="@font/fruzzybubbles"
+                          android:padding="5dp"
+                          android:text="Organizamos tus celebraciones en nuestras instalaciones" />
+
+                      <Button
+                          android:id="@+id/btn2"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="center"
+                          android:fontFamily="@font/fruzzybubbles"
+                          android:foregroundGravity="center"
+                          android:text="Reservar"
+                          android:textStyle="bold"
+                          app:cornerRadius="20dp" />/>
+                  </LinearLayout>
+
+              </LinearLayout>
+
+              <TextView
+                  android:id="@+id/textkaraoke1"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:ems="10"
+                  android:fontFamily="@font/fruzzybubbles"
+                  android:inputType="textPersonName"
+                  android:text="Jueves de Karaoke"
+                  android:textColor="@color/black"
+                  android:textSize="34sp"
+                  android:textStyle="bold" />
+
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+
+                  <ImageView
+                      android:id="@+id/imagekaraoke"
+                      android:layout_width="113dp"
+                      android:layout_height="126dp"
+                      android:backgroundTint="@color/white"
+                      android:backgroundTintMode="screen"
+                      android:foregroundTint="@color/white"
+                      android:padding="5dp"
+                      android:src="@drawable/ic_karaoke" />
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical">
+
+                      <TextView
+                          android:id="@+id/textkaraoke"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_margin="5dp"
+                          android:fontFamily="@font/fruzzybubbles"
+                          android:padding="5dp"
+                          android:text="Ven y disfruta con tus amigos de un jueves de karaoke lleno de premios y sorpresas." />
+
+                      <Button
+                          android:id="@+id/btn3"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="center"
+                          android:fontFamily="@font/fruzzybubbles"
+                          android:foregroundGravity="center"
+                          android:text="Reservar"
+                          android:textStyle="bold"
+                          app:cornerRadius="20dp" />
+                  </LinearLayout>
+
+
+              </LinearLayout>
+
+              <TextView
+                  android:id="@+id/textconcierto1"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:ems="10"
+                  android:fontFamily="@font/fruzzybubbles"
+                  android:inputType="textPersonName"
+                  android:text="Viernes de concierto"
+                  android:textColor="@color/black"
+                  android:textSize="34sp"
+                  android:textStyle="bold" />
+
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+
+                  <ImageView
+                      android:id="@+id/imageconcierto"
+                      android:layout_width="113dp"
+                      android:layout_height="126dp"
+                      android:backgroundTint="@color/white"
+                      android:backgroundTintMode="screen"
+                      android:foregroundTint="@color/white"
+                      android:padding="5dp"
+                      android:src="@drawable/ic_musico" />
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical">
+
+                      <TextView
+                          android:id="@+id/textconcierto"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_margin="5dp"
+                          android:fontFamily="@font/fruzzybubbles"
+                          android:padding="5dp"
+                          android:text="Ven y disfruta de los conciertos en vivo de las mejores bandas musicales de la ciudad y así también apoyamos el talento artístico" />
+
+                      <Button
+                          android:id="@+id/btn4"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="center"
+                          android:fontFamily="@font/fruzzybubbles"
+                          android:foregroundGravity="center"
+                          android:text="Reservar"
+                          android:textStyle="bold"
+                          app:cornerRadius="20dp" />
+                  </LinearLayout>
+
+
+              </LinearLayout>
+
+
+          </LinearLayout>
+      </LinearLayout>
+  </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
